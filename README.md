@@ -46,7 +46,8 @@ Logo tersebut menggunakan svg agar dapat di resize tanpa mengurangi kualitas gam
 - Style
 Style website ini menggunakan rounded rectangle yang dimaksudkan bahwa klien tidak berusaha untuk menyakiti. Rounded Rectangle memberikan kesan lebih lembut daripada rectangle biasa. Beberapa desain untuk penampilan social credit point digunakan sebuah class dari css yang akan mewarnai div tersebut. Pewarnaan itu dilakukan agar user dapat melihat social credit point tersebut masuk ke dalam kategori apa.
 Berikut contoh nya:
-searchQuery.php:
+
+- searchQuery.php:
 ```php
         $status = array(
                 1 => "good",
@@ -67,7 +68,7 @@ searchQuery.php:
             }
 ```
 
-database.css :
+- database.css :
 ```css
         .good {
             background-color: rgba(26, 129, 26, 0.8);
