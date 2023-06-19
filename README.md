@@ -288,7 +288,9 @@ Responsive lainnya adalah perihal ukuran judul. Hal ini menggunakan media Query 
 
 ### Direct Feedback
 Website ini memiliki beberapa direct feedback seperti jika mengklik beberapa icon tertentu, menu navbar yang dapat menunjukan posisi sekarang ada di halaman apa, terdapat search bar yang dapat digunakan untuk pencarian seseorang, step step yang dapat dibuka ataupun ditutup, dan beberapa animasi hover untuk menuju link tertentu atau menjalankan script tertentu.
-"
+```
+    css:
+
     <div class="card">
         <div class="card-body" onclick="toggleDescription(1)">
             <h5 class="card-title" >Step 1</h5>
@@ -296,7 +298,7 @@ Website ini memiliki beberapa direct feedback seperti jika mengklik beberapa ico
                 Fill in the "Respondent Name" and "Respondent ID" fields to provide your own information as the reporter.</p>
         </div>
     </div>
-"
+```
 contoh cuplikan diatas adalah tombol untuk membuka tutup step penggunaan form. Jika user menekan div tersebut atau kotak step tersebut, maka akan menjalankan sebuah fungsi yang akan mengedit style dari paragraf ber id description-x menjadi display block, yang awalnya adalah display none. Jika user menekan lagi maka proses akan dibalik.
 
 ### Konten Dinamis
