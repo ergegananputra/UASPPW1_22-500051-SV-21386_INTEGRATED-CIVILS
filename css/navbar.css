@@ -1,0 +1,94 @@
+.ICNavbar{
+    z-index: 3;
+}
+
+.ICNavbar .navbar{
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.ICNavbar .navbar .costumMenu a:hover{
+    color: #cd853f;
+    transition: 0.4s;
+} 
+
+.ICNavbar .navbar a{
+    color: var(--white);
+}
+
+.ICNavbar .navbar .dropdown-menu a{
+    color: black;
+}
+
+.ICNavbar .navbar .dropdown-menu{
+    background-color: #f0f0f0c5;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    right: 0;
+    left: auto;
+    border-radius: 15pt;
+}
+
+
+@media (max-width: 880px) {
+    .ICNavbar .navbar button{
+        border-width: 0;
+        transition: 0.4s;
+        border-radius: 5pt !important;
+
+        justify-content: flex-end;
+    }
+
+    
+}
+
+@media (min-width: 880px) {
+    .ICNavbar .navbar button{
+        border-width: 0;
+        transition: 0.4s;
+        border-radius: 5pt !important;
+    }
+
+    .ICNavbar .navbar .costumMenu{
+        width: 50%;
+        justify-content: space-between;
+        font-size: 20pt;
+    }
+}
+
+.ICNavbar .navbar button:hover{
+    border-width: 0;
+    background-color: #a52a2a;
+    transition: 0.4s;
+    color: #cd853f;
+}
+
+.ICNavbar .navbar button span{
+    font-size: 20pt;
+    transition: 0.4s;
+}
+
+.ICNavbar .btn-danger {
+    background-color: var(--brown);
+}
+
+.TITLES {
+    font-weight: 400;
+    font-size: 25pt;
+    margin-left: 50px;
+
+    transition: 0.4s;
+}
+
+.logoIC {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+

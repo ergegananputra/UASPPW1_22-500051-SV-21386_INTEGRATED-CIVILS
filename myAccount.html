@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Civils: Account</title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/Logo Integrated Civils  White.svg" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/myAccount.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+        #my_navbar {
+            background : radial-gradient(circle, #6b0505, #6b0505ed);
+            padding-top : 10px;
+            padding-bottom : 10px;
+
+            transition: 0.4s;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 99;
+
+        }
+
+        #logoContainer svg{
+            height: 50px;
+            transition: 0.4s;
+        }
+
+        #logoContainer path {
+            fill: white !important;
+        }
+
+        #navMenu {
+            font-size: 15pt;
+            transition: 0.4s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbarContainer"></div>
+    <div class="invisible-gap"></div>
+
+    <div class="header">
+        <span class="material-symbols-outlined">Person</span>
+        <h1 class="h1">Account Information</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card potrait">
+                    <h2 class="card-title" style="text-align: center;">Potrait</h2>
+                    <div class="card-body">
+                        <img src="assets/img/StockPhotoPotrait.jpg" alt="Citizen Photo" class="citizen-photo">
+                        <button>EDIT</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <h2 class="card-title">Basic Information</h2>
+                    <hr>
+                    <div class="account-info">
+                        <label for="full-name">Full Name:</label>
+                        <p id="full-name" class="information">Marki Budiman</p>
+                    </div>
+
+                    <div class="account-info">
+                        <label for="ssn">Social Security Number:</label>
+                        <p id="ssn" class="information">34521545721246</p>
+                    </div>
+
+                    <div class="account-info">
+                        <label for="gender">Gender:</label>
+                        <p id="gender" class="information">Male</p>
+                    </div>
+
+                    <div class="account-info">
+                        <label for="date-of-birth">Date of Birth:</label>
+                        <p id="date-of-birth" class="information">January 3, 2003</p>
+                    </div>
+                    
+                    <div class="account-info">
+                        <label for="home-address">Home Address:</label>
+                        <p id="home-address" class="information">Jakarta Pusat, Klebengan</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card-title">Additional Information</h2>
+                    <hr>
+                    <div class="account-info">
+                        <label for="blood-type">Blood Type:</label>
+                        <p id="blood-type" class="information">A+</p>
+                    </div>
+                    <div class="account-info">
+                        <label for="office-address">Office Address:</label>
+                        <p id="office-address" class="information">456 Business Avenue, City, State, Zip Code</p>
+                    </div>
+                    <div class="account-info">
+                        <label for="hobbies">Hobbies:</label>
+                        <p id="hobbies" class="information">Reading, Running, Painting</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="js/navigationBar.js"></script>
+    <script>
+        let TITLES = document.getElementById("TITLES");
+        TITLES.innerHTML="Integrated Civils";
+        document.getElementById("myaccount").style.color = "#cd853f";
+    </script>
+
+    <br><br><br><br><br><br><br><br><br>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Integrated Civils: Connecting Every Aspect of Life</p>
+            <p class="footer-description">This website aims to connect every aspect of life through civil engineering. It provides a platform for sharing information, ideas, and solutions for various civil engineering challenges.</p>
+            <img src="assets/logo/Logo Integrated Civils  White.svg" alt="Integrated Civils">
+            <div class="footer-contact">
+                <p class="footer-contact-info">Contact us:</p>
+                <p>Email: info@integratedcivils.com</p>
+                <p>Phone: +62 (123) 456-7890</p>
+            </div>
+            <div class="footer-location">
+                <p class="footer-location-info">Location:</p>
+                <p>123 Main Street, City, State, Country</p>
+            </div>
+            <p class="footer-copy">© 2023 Integrated Civils. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

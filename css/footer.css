@@ -1,0 +1,41 @@
+.footer {
+    background-color: var(--grey);
+    color: var(--white);
+    padding: 50pt 10%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-contact, .footer-location {
+    margin-bottom: 10px;
+}
+
+.footer-contact-info, .footer-location-info {
+    font-weight: bold;
+}
+
+.footer-copy {
+    font-size: 14px;
+}
+  
+
+.footer img {
+    width: 40pt;
+    margin: 10pt;
+}
+  

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Civils: Inbox Time</title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Google Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/Logo Integrated Civils  White.svg" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/myMessage.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+        #my_navbar {
+            background : radial-gradient(circle, #6b0505, #6b0505ed);
+            padding-top : 10px;
+            padding-bottom : 10px;
+
+            transition: 0.4s;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 99;
+
+        }
+
+        #logoContainer svg{
+            height: 50px;
+            transition: 0.4s;
+        }
+
+        #logoContainer path {
+            fill: white !important;
+        }
+
+        #navMenu {
+            font-size: 15pt;
+            transition: 0.4s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbarContainer"></div>
+    <div class="invisible-gap"></div>
+
+    <div class="header">
+        <span class="material-symbols-outlined">Inbox</span>
+        <h1 class="h1">Your Inbox</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-4">
+                <div class="card sidebar">
+                    
+
+                    <h2 class="card-title">Inbox</h2>
+                    
+                    <ul class="inbox-categories">
+                        <li>All Messages</li>
+                        <li>Sent</li>
+                        <li>Received</li>
+                        <li>Government Messages</li>
+                    </ul>
+
+                    <hr>
+
+                    <!-- Search Box -->
+                    <div class="search-bar">
+                        <input id="keywordToSearch" type="text" placeholder="Search...">
+                        <button type="button"><span class="material-symbols-outlined">search</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Messages -->
+            <div class="col-md-8">
+                <!-- Message -->
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">Welcome To Our Beloved Country</h2>
+                        <p class="message-sender">Mr. President</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Welcome to our beloved Country. You will love this country much more than our country neighbor..</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">You Granted 1000 scp</h2>
+                        <p class="message-sender">Government</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Thank you for supporting our campaign in thi SCP Project</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">What is the website about?</h2>
+                        <p class="message-sender">Social Expertist</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Integrated Civils is a official government website that aims to connect every aspect of life through civil engineering. 
+                            It is a platform for government officials, engineers, researchers, and citizens to share information,
+                            ideas, and solutions for various civil engineering challenges. The website covers topics such as 
+                            structural design, geotechnical engineering, highway engineering, water resources, materials, 
+                            and environmental engineering. The website also provides resources such as online courses, 
+                            workshops, seminars, and publications. Integrated Civils is a website that strives to make 
+                            the nation safer, smarter, and more sustainable through civil engineering.</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">What is Social Credit Point?</h2>
+                        <p class="message-sender">Right Wings</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Social credit point is a system that evaluates the trustworthiness of individuals, 
+                            businesses and institutions. It is based on various factors such as 
+                            financial credit, legal compliance, social behavior and public reputation. 
+                            Depending on their score, people and entities may face rewards or sanctions, 
+                            such as easier access to loans or travel bans.</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">Why so Concerning?</h2>
+                        <p class="message-sender">John Malika</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Social credit point is a system that assigns a score to each citizen based on their 
+                            behavior and activities. It is meant to encourage good conduct and discourage bad ones. 
+                            However, some people are concerned that it may violate human rights and privacy, 
+                            as well as create a culture of fear and conformity. They worry that the system may 
+                            be used to manipulate and oppress people who do not agree with the authorities or 
+                            the majority.</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">Green Access Received</h2>
+                        <p class="message-sender">Goverment</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Congratulation on your Green Access Card. You are now easy to access to all public and private facilities.</p>
+                    </div>
+                </div>
+
+                <div class="card message">
+                    <div class="message-header">
+                        <h2 class="message-title">Message Title</h2>
+                        <p class="message-sender">Sender Name</p>
+                    </div>
+                    <hr>
+                    <div class="message-body">
+                        <p>Message content...</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+        <a href="#"><span class="material-symbols-outlined">keyboard_arrow_up</span></a>
+        <p class="h2 eom">You reach the end of your messages</p>
+
+    </div>
+
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="js/navigationBar.js"></script>
+    <script>
+        let TITLES = document.getElementById("TITLES");
+        TITLES.innerHTML="Integrated Civils";
+        document.getElementById("messages").style.color = "#cd853f";
+    </script>
+
+    <br><br><br><br><br><br><br><br><br>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Integrated Civils: Connecting Every Aspect of Life</p>
+            <p class="footer-description">This website aims to connect every aspect of life through civil engineering. It provides a platform for sharing information, ideas, and solutions for various civil engineering challenges.</p>
+            <img src="assets/logo/Logo Integrated Civils  White.svg" alt="Integrated Civils">
+            <div class="footer-contact">
+                <p class="footer-contact-info">Contact us:</p>
+                <p>Email: info@integratedcivils.com</p>
+                <p>Phone: +62 (123) 456-7890</p>
+            </div>
+            <div class="footer-location">
+                <p class="footer-location-info">Location:</p>
+                <p>123 Main Street, City, State, Country</p>
+            </div>
+            <p class="footer-copy">© 2023 Integrated Civils. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

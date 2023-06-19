@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(234, 228, 228);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    padding: 50pt 10% 50pt 10%;
+    text-align: center;
+    color: var(--darkRed);
+}
+
+.header span{
+    font-size: 125pt;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .card .information{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.container h2{
+    color: var(--darkRed);
+}
+
+.card {
+    background-color: rgba(234, 231, 231, 0.442);
+    padding: 30pt;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+
+    text-align: left;
+    border-width: 0;
+    box-shadow: 0 12px 50px rgba(98, 60, 60, 0.2);;
+}
+
+
+
+.card-title {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+
+.footer_transition{
+    background: linear-gradient(to bottom, rgb(234, 228, 228), var(--grey));
+}
+
+
+
+.card.sidebar {
+    background-color: rgba(234, 231, 231, 0.442);
+    padding: 30pt;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+
+    text-align: left;
+    border-width: 0;
+    box-shadow: 0 12px 50px rgba(98, 60, 60, 0.2);
+
+    position: sticky;
+    top: 20%;
+}
+
+.inbox-categories {
+    list-style-type: none;
+    padding: 0;
+}
+
+.inbox-categories li {
+    color: var(--grey);
+    padding: 10px 0;
+    font-size: 12pt;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.inbox-categories li:hover {
+    color: peru;
+    padding: 10px 0;
+    font-size: 13pt;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.card.message {
+    background-color: rgba(234, 231, 231, 0.442);
+    padding: 30pt;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+
+    text-align: left;
+    border-width: 0;
+    box-shadow: 0 12px 50px rgba(98, 60, 60, 0.2);
+}
+
+.message-title {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.message-sender {
+    font-size: 15pt;
+}
+
+.message-body {
+    margin-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    border-radius: 10pt;
+
+    width: 100%;
+}
+
+.search-bar input {
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10pt 0 0 10pt ;
+
+    background-color: transparent;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #6b0505;
+    transition: 0.4s;
+    color: #fff;
+    border: none;
+    border-radius: 0 10pt 10pt 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #870606;
+}
+
+.eom {
+    color: var(--grey);
+}
+
+.container a span{
+    font-size: 70pt;
+    transition: 0.4s;
+    color: var(--grey);
+}
+
+.container a span:hover {
+    font-size: 85pt;
+    transition: 0.4s;
+    color: var(--darkRed);
+}

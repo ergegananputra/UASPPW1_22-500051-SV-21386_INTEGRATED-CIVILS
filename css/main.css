@@ -1,0 +1,51 @@
+:root {
+    --darkRed: #6b0505;
+    --white: #f0f0f0;
+    --black: #110101;
+    --brown: #8b1e1e;
+    --grey: #272626;
+    --whitegrey: #c3bfbf;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width : 771px) {
+    .h1{
+        font-size: 45pt;
+        font-weight: 700;
+    }
+    
+    .h2{
+        font-size: 30pt;
+        font-weight: 600;
+    }
+}
+@media (max-width : 770px) {
+    .h1{
+        font-size: 35pt;
+        font-weight: 650;
+    }
+    
+    .h2{
+        font-size: 20pt;
+        font-weight: 550;
+    }
+}
+
+.invisible-gap {
+    margin-bottom: 70px;
+    padding-bottom: 0;
+  }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+

@@ -1,0 +1,148 @@
+body{
+    background-image: url("../assets/img/serverRoom.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.database_suit{
+    background-color: #321414b8;
+    padding: 10%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.database_suit p{
+    color: var(--white);
+    font-size: 20pt;
+}
+
+.database_suit h1{
+    color: var(--white);
+}
+
+.search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(245, 245, 245, 0.668);
+    padding: 10pt;
+    border-radius: 30pt;
+
+
+    width: 100%;
+}
+
+.search-bar input {
+    width:100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20pt 5pt 5pt 20pt ;
+
+    background-color: transparent;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #6b0505;
+    transition: 0.4s;
+    color: #fff;
+    border: none;
+    border-radius: 5pt 20pt 20pt 5pt;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #870606;
+}
+
+
+.search-query-result {
+    margin-top: 40px;
+    width: 95%;
+  }
+
+.tx-right{
+    text-align: right;
+}
+
+.card{
+    width: 100%;
+    margin-bottom: 20pt;
+    border-radius: 15pt;
+    border-width: 0;
+
+    background-color: rgba(229, 227, 227, 0.791);
+}
+
+.card p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.card .card-title{
+    font-size: 25pt;
+    font-weight: 650;
+    color: var(--darkRed);
+}
+
+.card .card-text{
+    font-size: 20pt;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.card .card-body{
+    height: 100%;
+    justify-content: center;
+    border-radius: 15pt;
+}
+
+.card .rightColor{
+    border-radius: 0pt 15pt 15pt 0pt ;
+}
+
+
+.card .card-point{
+    font-size: 50pt;
+    font-weight: inherit;
+    color: inherit;
+
+    text-align: right;
+}
+
+
+
+.footer_transition{
+    background: linear-gradient(to bottom, #321414b8, var(--grey));
+}
+
+.good {
+    background-color: rgba(26, 129, 26, 0.8);
+    color: var(--white);
+    font-weight: 600;
+}
+  
+.medium {
+    background-color: rgba(165, 107, 20, 0.8);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.bad {
+    background-color: rgba(189, 39, 39, 0.8);
+    color: var(--white);
+    font-weight: 600;
+}
+  
+
+
+

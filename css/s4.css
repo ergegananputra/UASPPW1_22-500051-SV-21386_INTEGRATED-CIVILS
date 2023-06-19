@@ -1,0 +1,53 @@
+.s4{
+    background-color: var(--white);
+    padding: 10%;
+}
+
+.s4 .button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4 button{
+    padding: 20pt 50pt;
+    border-radius: 30pt;
+    border-width: 0;
+
+    background-color: var(--darkRed);
+    color: var(--white);
+    transition: 0.4s;
+}
+
+.s4 button:hover{
+    padding: 20pt 50pt;
+    border-radius: 30pt;
+    border-width: 0;
+
+    background-color: rgb(193, 2, 2);
+    color: var(--white);
+    transition: 0.4s;
+}
+
+.s4 h1{
+    color: var(--darkRed);
+}
+
+.s4 .span-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30pt;
+}
+
+.s4 span{
+    color:grey;
+    font-size: 60pt;
+    transition: 0.4s;
+}
+
+.s4 span:hover{
+    color: var(--grey);
+    font-size: 60pt;
+    transition: 0.4s;
+}

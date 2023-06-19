@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(234, 228, 228);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header{
+    padding: 50pt 10% 50pt 10%;
+    text-align: center;
+    color: var(--darkRed);
+}
+
+.header span{
+    font-size: 125pt;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container .card .information{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.container h2{
+    color: var(--darkRed);
+}
+
+.card {
+    background-color: rgba(234, 231, 231, 0.442);
+    padding: 30pt;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+
+    text-align: left;
+    border-width: 0;
+    box-shadow: 0 12px 50px rgba(98, 60, 60, 0.2);;
+}
+
+.card.potrait {
+    background-color: rgba(234, 231, 231, 0.442);
+    padding: 30pt 0 0 0;
+    margin-bottom: 20px;
+    border-radius: 15pt;
+
+    text-align: left;
+    border-width: 0;
+    box-shadow: 0 12px 50px rgba(98, 60, 60, 0.2);;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 15pt 15pt 0 0;
+    margin: 0;
+}
+
+.card-title {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.card-body {
+    margin: 0;
+}
+
+.card-body button{
+    width: 100%;
+    border-radius: 0 0 15pt 15pt;
+
+    background-color: var(--grey);
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--white);
+    height: 30pt;
+
+    border-width: 0;
+    border-color: transparent;
+    transition: 0.4s;
+}
+
+.card-body button:hover{
+    width: 100%;
+    border-radius: 0 0 15pt 15pt;
+
+    background-color: var(--darkRed);
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--white);
+    height: 35pt;
+
+    border-width: 0;
+    border-color: transparent;
+    transition: 0.4s;
+}
+
+.account-info {
+    margin-bottom: 20px;
+}
+
+.account-info label {
+    font-size: 17pt;
+    color: grey;
+    font-weight: bold;
+}
+
+.account-info p {
+    margin: 5px 0;
+}
+
+.footer_transition{
+    background: linear-gradient(to bottom, rgb(234, 228, 228), var(--grey));
+}

@@ -1,0 +1,15 @@
+.s2{
+    background: linear-gradient(to bottom, #000000, #110101);
+    color: var(--white);
+    padding: 10%;
+
+    font-size: 20pt;
+
+    
+}
+
+.s2 h1{
+    color: var(--darkRed);
+    font-size: 45pt;
+    font-weight: 700;
+}

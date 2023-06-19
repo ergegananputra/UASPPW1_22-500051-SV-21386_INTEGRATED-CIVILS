@@ -1,0 +1,142 @@
+.s3{
+    background-color: var(--white);
+}
+
+.s3 .transitionToS3{
+    background-image: url("../assets/img/transition-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+
+    padding: 10% 10% 0 10%;
+    color: var(--darkRed);
+}
+
+.s3 .transitionToS3 h1{
+    font-size: 45pt;
+    font-weight: 700;
+}
+
+.s3 h1{
+    font-weight: 900;
+    font-size: 45pt;
+    color: var(--darkRed);
+}
+
+.s3b{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 10%;
+    
+}
+
+.s3b .container{
+    background: linear-gradient(to bottom right, #e6eaea, rgba(227, 216, 216, 0.7));
+    text-align: left;
+
+    color: var(--black);
+
+    max-width: 360pt;
+    min-width: 200pt;
+
+    padding: 30pt;
+    margin: 10pt 20pt 10pt 0;
+
+    border-radius: 15pt;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+    transition: 0.4s;
+}
+
+.s3b .container p{
+    font-size: 20pt;
+}
+
+.ulli {
+    font-size: 18pt;
+}
+
+.s3b .container.green {
+    background-color: rgb(0, 255, 0);
+}
+.s3b .container.green h2{
+    color: darkgreen;
+    font-weight: 720;
+}
+.green{
+    color: darkgreen;
+    transition: 0.4s;
+}
+a.green:hover{
+    color: rgb(18, 177, 18);
+    text-decoration: none;
+    transition: 0.4s;
+}
+  
+.s3b .container.yellow {
+    background-color: rgb(255, 153, 0);
+}
+.s3b .container.yellow h2{
+    color: #f3a006;
+    font-weight: 720;
+}
+.yellow{
+    color: #f3a006;
+    transition: 0.4s;
+}
+a.yellow:hover{
+    color: #ffbc3f;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.s3b .container.red {
+    background-color: rgb(255, 0, 0);
+}
+.s3b .container.red h2{
+    color: rgb(189, 39, 39);
+    font-weight: 720;
+}
+.red{
+    color: rgb(189, 39, 39);
+    transition: 0.4s;
+}
+a.red:hover{
+    color: rgb(229, 37, 37);
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.s3b .container button{
+    font-size: 20pt;
+    font-weight: 400;
+    color: var(--white);
+
+    margin: 5pt 0;
+    padding: 5pt;
+    width: 100%;
+    border-radius: 15pt;
+    border-width: 0;
+
+    background-color: var(--darkRed);
+    transition: 0.4s;
+}
+
+.s3b .container button:hover{
+    font-size: 20pt;
+    font-weight: 400;
+    color: var(--darkRed);
+
+    margin: 5pt 0;
+    padding: 5pt;
+    width: 100%;
+    border-radius: 15pt;
+    border-width: 0;
+
+    background-color: var(--white);
+    transition: 0.4s;
+}
