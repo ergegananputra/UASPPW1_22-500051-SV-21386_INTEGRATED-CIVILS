@@ -5,7 +5,11 @@
 
 
 ### Catatan:
-- Gradien dan warna semi transparant tidak dapat tertampil sempurna dalam foto screenshots.
+- Gradien dan warna semi transparant tidak dapat tertampil sempurna dalam foto screenshots. Oleh karena itu screenshots full page, footer tidak terlihat gradien warnanya, sehingga terlihat tidak menyambung.
+  seharusnya terlihat seperti gambar dibawah ini:
+  #### Gradien yang tertampil benar
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/21f6e67e-c96d-4fa0-9daa-6c752c5fa465)
+
 
 ## Penjelasan Umum:
 Website ini digunakan untuk tempat pengaduan pelanggaran yang dilakukan oleh masyarakat oleh masyarakat suatu negara. Website ini terinspirasi dari Social Credit Points yang diterapkan di China, dimana setiap masyarakat memiliki social rating yang dapat berdampak ke kehidupan bernegara. Klien dalam hal ini berupa pemerintahan. Website ini ditujukan untuk digunakan oleh masyarakat umum. Form yang dikirim seharusnya di cek oleh pemerintah secara otomatis dan di masukkan ke database utama pemerintah.
