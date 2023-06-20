@@ -3,6 +3,10 @@
 ## Adiel Boanerge Gananputra
 ## 22/500051/SV/21386
 
+
+### Catatan:
+- Gradien dan warna semi transparant tidak dapat tertampil sempurna dalam foto screenshots.
+
 ## Penjelasan Umum:
 Website ini digunakan untuk tempat pengaduan pelanggaran yang dilakukan oleh masyarakat oleh masyarakat suatu negara. Website ini terinspirasi dari Social Credit Points yang diterapkan di China, dimana setiap masyarakat memiliki social rating yang dapat berdampak ke kehidupan bernegara. Klien dalam hal ini berupa pemerintahan. Website ini ditujukan untuk digunakan oleh masyarakat umum. Form yang dikirim seharusnya di cek oleh pemerintah secara otomatis dan di masukkan ke database utama pemerintah.
 
