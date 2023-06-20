@@ -29,7 +29,6 @@ Desain website ini menggunakan tema partai atau ciri khas dari negara klien, yai
     }
 ```
 diatas adalah beberapa warna utama dari website.
-https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/blob/main/README.md
 
 #### - Logo
 ![Logo Integrated Civils](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/115f37a8-0f2a-4384-bc95-1a0e2bf6fd28)
