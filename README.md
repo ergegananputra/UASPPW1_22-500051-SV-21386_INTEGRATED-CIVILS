@@ -15,6 +15,23 @@ Website ini juga memberikan kesempatan untuk vendor berikutnya dalam melakukan p
 
 ## Bagaimana website memenuhi 4 requirement dasar (kriteria penilaian)?
 ### Desain
+#### - Kerapian
+Website ini memiliki padding di index html sehingga konten memiliki kerapian dari atas hingga bawah seperti pada gambar dibawah ini
+#### contoh di index.php
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/c38309aa-2f7f-4edc-9126-ca7d64adf411)
+#### contoh di database.php
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/f7be6d7c-a791-42d2-bc41-0a10ed828677)
+
+Untuk konten lain seperti form, message dan profile menggunakan tata letak yang terpusat di tengah agar user dapat fokus dan tidak perlu menggerakkan mata terlalu jauh. Padding ini menggunakan col dari bootstrap dan terlihat seperti gambar dibawah ini:
+#### contoh di snitch.php
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/da950738-f687-4ebe-a455-85a767067f85)
+#### contoh di myAccount.html
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/cd52faf0-cb2c-4eef-bcc1-b9a877e9ba3c)
+#### contoh di messages.html
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/65c1cad8-63c2-4da1-ad97-823dd23a7aa8)
+
+
+
 #### - Warna
 
 Desain website ini menggunakan tema partai atau ciri khas dari negara klien, yaitu merah. Warna merah dikombinasikan dengan warna hitam dan putih. Warna hitam ini melambangkan bahwa pemerintah(klien) tegas dalam membuat atau melakukan hal ini. Warna putih melambangkan bahwa website ini digunakan untuk kebaikan bersama (tujuan pemerintah).
@@ -325,6 +342,11 @@ Website ini memiliki beberapa direct feedback seperti jika mengklik beberapa ico
 ```
 contoh cuplikan diatas adalah tombol untuk membuka tutup step penggunaan form. Jika user menekan div tersebut atau kotak step tersebut, maka akan menjalankan sebuah fungsi yang akan mengedit style dari paragraf ber id description-x menjadi display block, yang awalnya adalah display none. Jika user menekan lagi maka proses akan dibalik.
 ![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/e6026b98-25e6-4f8c-b0e9-81c06301b8b9)
+
+contoh lain adalah menu navbar akan terhighlight ketika user memasuki menu tersebut. Dan user dapat mengetahui sekarang berada dimana dengan adanya hightlight tersebut.
+#### - Screenshot Navbar ketika di Database
+![image](https://github.com/ergegananputra/UASPPW1_22-500051-SV-21386_INTEGRATED-CIVILS/assets/126530940/d0da9771-bb6a-465a-999a-37371e382244)
+
 
 
 ### Konten Dinamis
